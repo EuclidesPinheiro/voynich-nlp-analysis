@@ -1,0 +1,23 @@
+# Ambientes Virtuais Python
+voynich_env/
+venv/
+*.pyenv
+.Python
+env/
+.env/
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos gerados / pastas de resultados de experimentos
+results_*/
+my_voynich_experiment/
+# Adicione aqui qualquer outro padrão para pastas de resultados que você criar
+
+# Arquivos de IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
