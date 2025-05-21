@@ -54,7 +54,7 @@ stripped_words = [strip_suffix(word) for word in voynich_words]
 unique_stripped_words = sorted(set(stripped_words))
 
 # === EMBED WITH SBERT ===
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
 embeddings = model.encode(
     unique_stripped_words,
     normalize_embeddings=True,
