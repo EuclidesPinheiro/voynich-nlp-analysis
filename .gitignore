@@ -15,7 +15,7 @@ venv/
 # macOS files
 .DS_Store
 
-# Ambientes Virtuais Python
+# Python Virtual Env
 voynich_env/
 venv/
 *.pyenv
@@ -23,15 +23,14 @@ venv/
 env/
 .env/
 
-# Arquivos de cache Python
+# cache files Python
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Arquivos gerados / pastas de resultados de experimentos
-results_*/
 my_voynich_experiment/
-# Adicione aqui qualquer outro padrão para pastas de resultados que você criar
+
 
 # Arquivos de IDE / Editor
 .vscode/
