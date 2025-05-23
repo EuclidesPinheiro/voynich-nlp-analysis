@@ -37,3 +37,8 @@ my_voynich_experiment/
 .idea/
 *.swp
 *~
+
+# Results
+results_2/
+results_AB_docx_no_strip/
+
